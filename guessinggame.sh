@@ -47,7 +47,6 @@ do
     is_neg $response
     is_char $response
 
-#    if [[ ${#response} -eq 0 ]]
     if [[ -z $response ]]
     then
         read -p "Please, enter at least something:" response
